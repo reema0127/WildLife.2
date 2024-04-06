@@ -1,0 +1,79 @@
+[
+    {
+        "introheading" : "Explore the WildLife of Sri Lanka",
+        "intropara" : "Step into the mesmerizing realm of Sri Lankan wildlife , a warm embrace of nature's wonders awaits you. Welcome to the enchanting tapestry of diverse fauna,lush landscapes, and untamed beauty that defines the heart and soul of Sri Lanka's wildlife. Embrace the magic, where each creature and each moment tells a story of the extraordinary. Welcome to a world where nature unfolds its most captivating secrets. Welcome to the spellbinding allure of Sri Lankan wildlife."
+    },
+    {
+        "siteheading" : "Wild Life Sites in Sri Lanka",
+        "site1" : "Sinharaja Forest Reserve",
+        "para1" : "The Sinharaja Forest Reserve stands as a crucial biodiversity hotspot in Sri Lanka, holding international significance as evidenced by its designation as a Biosphere Reserve and World Heritage Site by UNESCO. Recognized by the International Union for Conservation of Nature (IUCN), Sinharaja represents the nation's last surviving expanse of primary tropical rainforest. Over 60% of its trees are endemic, with many classified as rare species. The reserve harbors half of Sri Lanka's endemic animal species, encompassing butterflies, amphibians, birds, snakes, and fish. Notably, it serves as a haven for 95% of the country's endemic bird population.",
+        "para2" : "Situated within the Sri Lanka lowland rain forests ecoregion, the undulating virgin rainforest was safeguarded from extensive commercial logging due to its challenging accessibility. Consequently, it earned the distinction of being a World Biosphere Reserve in 1978 and a World Heritage Site in 1988.The dense vegetation of Sinharaja poses challenges for wildlife observation compared to drier national parks like Yala. The most prevalent larger mammal within its confines is the endemic purple-faced langur. Avian life thrives in mixed feeding flocks, often led by the fearless Sri Lanka crested drongo and the vocal orange-billed babbler. Among the 26 endemic bird species of Sri Lanka, all 20 rainforest species find their habitat here, featuring elusive species such as the red-faced malkoha, green-billed coucal, and Sri Lanka blue magpie. ",
+        "para3" : "The reptile population boasts endemic species like the green pit viper and hump-nosed vipers, while a diverse array of amphibians, particularly tree frogs,contribute to the rich biodiversity. Among the invertebrates, notable residents include the endemic Sri Lankan birdwing butterfly and leeches"
+    },
+    {
+        "galleryheading" : "Gallery" 
+    },
+    {
+        "tabletitle1": "Name",
+        "tabletitle2" : "Diet",
+        "tabletitle3" : "Physical Characteristics" ,
+        "tabletitle4" : "Fun Fact",
+        "animal1" : "Leopard",
+        "animal2" : "Indian elephant",
+        "animal3" : "Endemic purple-faced Langur",
+        "list" : [
+            "Similar to many feline species, this cat demonstrates practicality in its dietary preferences, encompassing small mammals, birds, reptiles,and larger animals. In the dry zone, the Sri Lankan axis deer constitute a significant portion of its diet. ",
+            "Additionally, the animal preys on sambar, barking deer, wild boar, and monkeys."
+        ],
+        "list2" : [
+            "Sri Lankan leopards are generally medium-sized big cats.",
+            "Adult males typically weigh between 60 to 90 kg (132 to 198 lbs), while females are slightly smaller, weighing around 30 to 60 kg (66 to 132 lbs).",
+            "The rosettes may be smaller than those found on other leopard subspecies."
+        ],
+        "list3" : [
+            "The Sri Lankan leopard is a subspecies of the leopard that is native to Sri Lanka, making it endemic to the island.",
+            "The population of Sri Lankan leopards in the wild is now fewer than 1000 individuals."
+        ],
+        "list4" : [
+            "They are herbivores with a primarily vegetarian diet.",
+            "Their diet consists of a variety of plant materials, and they consume a large quantity of food due to their size.",
+            "Here are some key components of their diet:"
+        ],
+        "smllist1" : [
+            "Grasses and Forage",
+            "Leaves",
+            "Bark",
+            "Fruits",
+            "Vegetation in Wetlands"
+        ],
+        "list5" : [
+            "They are among the largest land animals. Adult males are generally larger than females. Males can stand around 2.7 to 3.5 meters (9 to 11.5 feet) at the shoulder, while females are slightly smaller.",
+            "They have a robust and sturdy build. The body is characterized by a high, arched back."
+        ],
+        "list6" : [
+            "They are known for their intelligence and are considered one of the most intelligent mammal species.",
+            "Indian elephants have a large and highly developed neocortex, the part of the brain responsible for complex cognitive processes such as problem-solving, learning, and memory."
+        ],
+        "list7" : [
+            "Their diet primarily consists of a variety of plant materials.",
+            " Here are some details about the diet of the purple-faced langur:"
+        ],
+        "smllist2" : [
+            "Leaves",
+            "Fruits",
+            "Flowers and Buds",
+            "Seeds",
+            "Burk and Gum"
+        ],
+        "list8" : [
+            "As the name suggests, the most prominent feature of the purple-faced langur is its distinctive purple face.",
+            "The fur on the face ranges from dark purple to pinkish hues, giving these monkeys a unique and striking appearance.",
+            "Apart from the purple face, the rest of the body is covered in grayish or dark brown fur."
+        ],
+        "list9" : [
+            "These langurs are known for their striking appearance, especially the infants.",
+            "Baby purple-faced langurs are born with bright orange fur, which gradually changes to the characteristic purple-gray color as they mature."
+        ]
+
+    }
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <section class="container">
+        <h1>footer</h1>
+    </section>
+
+    <footer>
+        <div class="logofooter">
+            <img src="logo/logowhite.png" alt="">
+        </div>
+
+        <!-- social icons -->
+        <div class="social-media">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <!-- menu -->
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <h4>About</h4>
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">Login</a>
+            </div>
+            <div class="footer-wrapper">
+                <h4 class="newsletter-title">Newsletter </h4>
+                <section id="newsletter"> 
+                   <form id="subscribeForm"> 
+                       <input type="email" id="emailInput" placeholder="Enter your email">
+                       <button type="submit">Subscribe</button> 
+                   </form>
+               </section>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="webright">
+                <p>All rights reserved ©2024 WildLife Srilanka</p>
+        </div>
+    </footer>
+    <div id="overlayfooter" class="overlayfooter hidden"></div> <!-- Overlay for the popup -->
+    <div id="popupfooter" class="popupfooter hidden">
+        <div class="popup-contentfooter">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <ion-icon name="checkmark-done-circle"></ion-icon>
+            <p>You have successfully subscribed!</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./JS/footer.js"></script>
+</body>
+</html>

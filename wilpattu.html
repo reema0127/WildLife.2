@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilpattu National Park</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="wilpattu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+     <!---------to include alpine.js!-------->
+     <script src="//unpkg.com/alpinejs" defer></script>
+     <!--------manifest ----------------->
+     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!---------------------------------------NAV BAR ------------------------------------------->
+   <header class="header">
+    <div class="containernav">
+        <div class="logo">
+            <img src="logo/logowhite.png" alt="logo">
+        </div>
+        <div class="menu">
+            <div class="head">
+                <div ><a href="./login.html"><button type="button" class="phone-login">Login</button></a></div>
+                <button type="button" class="close-menu-btn"></button>
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="./NationalPark1.html">Introduction</a>
+                </li>
+                <li><a href="./WildLifeDep.html">DWC</a></li>
+                <li class="dropdown">
+                    <a href="#">Animals</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
+                         <li><a href="./leopard.html"><span>Leopard</span></a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">National Parks</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./yala.html"><span>Yala</span></a></li>
+                        <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <a href="./login.html"><button type="button" class="login-btn">Login</button></a>
+            <button type="button" class="open-menu-btn">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </div>
+</header>  
+    <!------------------------------------------CONTENT---------------------------------------------->
+    <section x-data="wilpattudata">
+        <nav class="video" autoplay loop muted>
+            <video autoplay loop muted>
+                <source src="wilpattubgvid.mp4" type="video/mp4">
+            </video>
+        
+            <nav class="content">
+               <h1 x-text="mh"></h1>
+                <span class="link"><a href="#more"><h3>Learn more</h3></a></span>
+            </nav>
+        </nav>
+        <!-------------------------------ABOUT---------------------------------->
+        <nav class="container1" id="more">
+            <h1 x-text="sh1"></h1>
+            <p x-text="para1"></p>
+            <p x-text="para2"></p>
+            <p >For more Information on Wilpattu National park visit <a href="https://www.wilpattunationalpark.com/index.php?lId=01" target="_blank">www.wilapattunationalpark.com</a></p>
+        </nav>
+        <!--------------------------------------------------GALLERY------------------------------------------>
+        <div class="gallery">
+            <h1 class="title" x-text="sh2"></h1>
+            <nav class="img-container">
+                <div class="silder">
+                    <img src="image2/wilpattuimg1.jpg" class="img">
+                    <img src="image2/wilpattuimg2.jpg" alt="">
+                    <img src="image2/wilpattuimg3.jpg" alt="">
+                    <img src="image2/wilpattuimg4.jpg" alt="">
+                    <img src="image2/wilpattuimg5.jpg" alt="">
+                    <img src="image2/wilpattuimg6.jpg" alt="">
+                    <img src="image2/wilpattuimg7.jpg" alt="">
+                    <img src="image2/wilpattuimg8.jpg" alt="">
+                    <img src="image2/wilpattuimg9.jpg" class="img">
+                </div>
+            </nav>
+        </div>
+        <!-------------------------------------WHAT TO DO--------------------------------------------------->
+        <div class="to-do">
+            <h1 x-text="sh3"></h1>
+            <ul>
+                <li><h3 x-text="event1"></h3></li>
+                  <p x-text="para4"></p>
+                <li><h3 x-text="event2"></h3></li>
+                <p x-text="para5"></p>
+                <li><h3 x-text="event3"></h3></li>
+                <p x-text="para6"></p>
+            
+            </ul>
+        </div>
+        <!------------------------------------------------FOOTER-------------------------------------------->
+        <footer>
+            <div class="logofooter">
+                <img src="logo/logowhite.png" alt="">
+            </div>
+    
+            <!-- social icons -->
+            <div class="social-media">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+            <!-- menu -->
+            <div class="footer-container">
+                <div class="footer-wrapper">
+                    <h4>About</h4>
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Login</a>
+                </div>
+                <div class="footer-wrapper">
+                    <h4 class="newsletter-title">Newsletter </h4>
+                    <section id="newsletter"> 
+                       <form id="subscribeForm"> 
+                           <input type="email" id="emailInput" placeholder="Enter your email">
+                           <button type="submit">Subscribe</button> 
+                       </form>
+                   </section>
+                </div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="webright">
+                    <p>All rights reserved ©2024 WildLife Srilanka</p>
+            </div>
+        </footer>
+        <div id="overlayfooter" class="overlayfooter hidden"></div> <!-- Overlay for the popup -->
+        <div id="popupfooter" class="popupfooter hidden">
+            <div class="popup-contentfooter">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <ion-icon name="checkmark-done-circle"></ion-icon>
+                <p>You have successfully subscribed!</p>
+            </div>
+        </div>
+    </section>
+    <script src="./JS/wilpattu.js"></script>
+    <script src="./JS/news.js"></script>
+     <!-----------------------ion-icon------------------------------>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

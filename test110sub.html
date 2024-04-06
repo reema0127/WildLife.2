@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            color: white;
+            
+        }
+        th {
+            background-color: #000000;
+        }
+        h2{
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+ 
+
+    <h1>Newsletter Subscribers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Email Address</th>
+            </tr>
+        </thead>
+        <tbody id="subscriberList">
+            <!-- Subscribers will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <script src="newsletter.js"></script>
+</body>
+</html>

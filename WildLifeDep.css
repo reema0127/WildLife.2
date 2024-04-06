@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: rosela;
+    src: url(font/Rosela.ttf);
+}
+.googlemap {
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+}
+
+.introduction,
+.history{
+    padding:0 9%;
+}
+
+.wildlifedep h1{
+    font-size: 55px;
+    font-family:rosela;
+    text-align: center;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font-weight: 600;
+    color: #000;
+}
+.wildlifedep h1:hover{
+    text-shadow: 0px 0px 10px #f7f1f1, 0px 0px 10px #f7f1f1, 0px 0px 10px #f7f1f1, 0px 0px 10px #f7f1f1;
+}
+.wilddep p{
+    line-height: 22px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
+    color: #000;
+
+}
+@media(max-width: 550px){
+    .wildlifedep h1{
+        font-size:25px;
+        margin-top: 10%;
+    }
+    .wildlifedep p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+@media(width:768px){
+    .wildlifedep h1{
+        font-size:50px;
+    }
+}
+.introduction{
+    padding-bottom: 50px;
+    padding-top: 150px;
+    
+}
+.wildlifedep {
+    /*background: url(image2/wilddep.jpg) ;*/
+    background: #f1fbdf;
+}
+/*--------------------------------------------------------HISTORY-----------------------------------*/
+.history{
+    padding-top:40px;
+    padding-bottom:100px;
+}
+.more {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #000;
+}
+.more:hover{
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*------------------------------------------PROTECTED AREAS----------------------------------------*/
+@media (max-width:1024px){
+    .protectedareas {
+        margin-bottom:30%;
+
+    }
+}
+@media (max-width:770px){
+    .protectedareas {
+        margin-bottom: 40%;
+    }
+}
+@media (max-width:550px) {
+    .protectedareas h1{
+        margin-bottom:30%;
+        font-size: 37px;
+    }
+    .protectedareas {
+        margin-bottom: 180%;
+    }
+}
+@media (max-width:320px){
+    .protectedareas {
+        margin-bottom: 220%;
+    }
+}
+.imgcontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    height: 90vh;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    /*background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);*/
+    background: #5857574a;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+.imgcontainer .card:hover{
+    height: 400px;
+    background: #5857574a;
+    /*background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);*/
+}
+.imgcontainer .card .imgbx{
+    position: absolute;
+    top: 20px;
+    width: 335px;
+    height: 220px;
+    background: #333; 
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.imgcontainer .card:hover .imgbx {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0,0,0.2);
+    
+}
+.imgcontainer .card .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.imgcontainer .card .content {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+.imgcontainer .card:hover .content{
+    height: 250px;
+    top: 130px;
+}
+.content h2{
+    font-size: 25px;
+    font-weight: lighter;
+    color:#000;
+}
+.content p{
+    color: #000;
+    font-weight: 700;
+}
+.content a{
+    text-decoration: none;
+    color: #000;
+}
+.content a:hover{
+    padding: 10px;
+    background: #11111158;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width:320px) {
+    .card {
+        width: 308px;
+        height: 300px;
+    }
+    .imgcontainer .card .imgbx{ 
+        width:295px;
+    }
+    .footer {
+        margin-top: 250%;
+    }
+}
+.title {
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: rosela;
+}
+@media (max-width:550px){
+    .gallery .title {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+.gallery {
+    max-width: 85%;
+    margin: 20px auto;
+    margin-bottom:5%;
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.258),rgba(255, 255, 255, 0.258));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 50px;
+}
+.gallery .img-container{
+    columns:3 250px;
+    gap: 20px;
+}
+.gallery .img-container img{
+    margin-bottom: 20px;
+    width: 100%;
+    transition: 1s;
+}
+
+.gallery .img-container img:hover {
+    transform: scale(1.05);
+}
+
+/* edit pop */
+
+.poptitle{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.editbtn {
+    padding: 15px 20px;
+    background: #dfe2df ;
+    border-top: 1px soild rgba(0,0,0,0.1);
+    border-radius: 50px;
+    color: #070707;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   margin-bottom: 40px;
+   font-size: 17px;
+} 
+
+.btn {
+    padding: 15px 20px;
+    background: #2a2b2a;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+/* Hidden by default */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background:white;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 50px;
+}
+.modal-content textarea{
+    padding: 10px;
+    color: black;
+   border: none;
+    border-radius: 20px;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+ .ptitle {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+ }
+.para {
+    width: 100%;
+    height: 100px;
+}
+.sub {
+    width: 33%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.subpara {
+    width: 33%;
+    height: 100px;
+}
+@media (max-width:1024px){
+    .modal-content textarea{
+       width: 100%;
+    }
+}
+
+@media (max-width:439px){
+    .editbtn {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:380px){
+    .editbtn {
+        margin-left: 20px;
+    }
+}

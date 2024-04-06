@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>The Department of Wildlife</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="WildLifeDep.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+       <!---------to include alpine.js!-------->
+       <script src="//unpkg.com/alpinejs" defer></script>
+      
+       <!--------manifest ----------------->
+       <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+      <link rel="manifest" href="./site.webmanifest">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+   <!---------------------------------------NAV BAR ------------------------------------------->
+   <header class="header">
+    <div class="containernav">
+        <div class="logo">
+            <img src="logo/logowhite.png" alt="logo">
+        </div>
+        <div class="menu">
+            <div class="head">
+                <div ><a href="./login.html"><button type="button" class="phone-login">Login</button></a></div>
+                <button type="button" class="close-menu-btn"></button>
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="./NationalPark1.html">Introduction</a>
+                </li>
+                <li><a href="./WildLifeDep.html">DWC</a></li>
+                <li class="dropdown">
+                    <a href="#">Animals</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
+                         <li><a href="./leopard.html"><span>Leopard</span></a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">National Parks</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./yala.html"><span>Yala</span></a></li>
+                        <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <a href="./login.html"><button type="button" class="login-btn">Login</button></a>
+            <button type="button" class="open-menu-btn">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </div>
+</header> 
+    <main>
+        <section x-data="wildlifedep">
+            <div class="wildlifedep" >
+                <div class="wilddep">
+                    <nav class="introduction">
+                        <h1 x-text="title"> </h1>
+                        <p x-text="para1"> </p>
+                        <p x-text="para2"></p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63331.41917624976!2d80.90503254863282!3d7.216447700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae49b2bfc1e7439%3A0xd537c2dbda8bcd49!2sDepartment%20of%20wildlife%20conservation!5e0!3m2!1sen!2slk!4v1705245821674!5m2!1sen!2slk"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
+                    </nav>
+                            <!--------------------------------------HISTORY OF DWC----------------------------------------------------->
+                    <nav class="history">
+                            <h1 x-text="title2"></h1>
+                            <p x-text="para3"></p>
+                           <p x-text="para4"></p>
+                            <p x-text="para5"><span class="wdc"></p> <a href="https://www.dwc.gov.lk/" target="_blank"  class="more">Click here</a></span>
+                            
+                    </nav>
+                </div>
+                <!----------------------------------------------------------protected areas--------------------------------------->
+                <div class="protectedareas">
+                    <h1 x-text="title3"></h1>
+                    <div class="imgcontainer">
+                        <nav class="card">
+                            <nav class="imgbx">
+                                <img src="Images/protected1.jpg" alt="">
+                            </nav>
+                            <nav class="content">
+                                <h2 x-text="sh1"></h2><br>
+                                <p x-text="para6"></p><br>
+                                    <a href="https://en.wikipedia.org/wiki/Hakgala_Strict_Nature_Reserve" target="_blank">Read More</a>
+                            </nav>
+                        </nav>
+                        <nav class="card">
+                            <nav class="imgbx">
+                                <img src="Images/protected2.jpg" alt="">
+                            </nav>
+                            <nav class="content">
+                                <h2 x-text="sh2"></h2><br>
+                                <p x-text="para7"></p><br>
+                                    <a href="https://en.wikipedia.org/wiki/Yala_National_Park" target="_blank">Read More</a>
+                            </nav>
+                        </nav>
+                        <nav class="card">
+                            <nav class="imgbx">
+                                <img src="Images/protected3.jpg" alt="">
+                            </nav>
+                            <nav class="content">
+                                <h2 x-text="sh3"></h2>
+                                <p x-text="para8"></p><br>
+                                    <a href="https://en.wikipedia.org/wiki/Ritigala" target="_blank">Read More</a>
+                            </nav>
+                        </nav>
+                    </div>
+                </div>
+            <!------------------------------------------------Gallery------------------------------------------------->
+            <div class="gallery">
+                <h1 class="title" x-text="galtitle"></h1>
+                <nav class="img-container">
+                  <div>
+                    <img src="image2/wilddep1.jpg" alt="">
+                    <img src="image2/wilddep2.jpg" alt="">
+                    <img src="image2/wilddep3.jpg" alt="">
+                    <img src="image2/wilddep5.jpg" alt="">
+                    <img src="image2/wilddep6.jpg" alt="">
+                    <img src="image2/wilddep7.jpg" alt="">
+                    <img src="image2/wilddep8.jpg" alt="">
+                    <img src="image2/wilddep9.jpg" alt="">
+                    <img src="image2/wilddep10.jpg" alt="">
+                  </div>
+                </nav>
+               </div>
+                   
+                 <!------------------------------------------FOOTER-------------------------------------------------------->
+                 <footer>
+                    <div class="logofooter">
+                        <img src="logo/logowhite.png" alt="">
+                    </div>
+            
+                    <!-- social icons -->
+                    <div class="social-media">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <!-- menu -->
+                    <div class="footer-container">
+                        <div class="footer-wrapper">
+                            <h4>About</h4>
+                            <a href="#">Home</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Login</a>
+                        </div>
+                        <div class="footer-wrapper">
+                            <h4 class="newsletter-title">Newsletter </h4>
+                            <section id="newsletter"> 
+                               <form id="subscribeForm"> 
+                                   <input type="email" id="emailInput" placeholder="Enter your email">
+                                   <button type="submit">Subscribe</button> 
+                               </form>
+                           </section>
+                        </div>
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="webright">
+                            <p>All rights reserved ©2024 WildLife Srilanka</p>
+                    </div>
+                </footer>
+                <div id="overlayfooter" class="overlayfooter hidden"></div> <!-- Overlay for the popup -->
+                <div id="popupfooter" class="popupfooter hidden">
+                    <div class="popup-contentfooter">
+                        <span class="close" onclick="closePopup()">&times;</span>
+                        <ion-icon name="checkmark-done-circle"></ion-icon>
+                        <p>You have successfully subscribed!</p>
+                    </div>
+                </div>
+    <!----------------------content
+        https://www.wikipedia.org/
+        https://www.dwc.gov.lk/------------------------------------>
+        <!-----------------------images
+        https://www.google.com/imghp?hl=en-------------------------->
+        <!---------------------font
+        https://fonts.google.com/
+        https://www.dafont.com/----------------------------------->
+        <script src="./JS/WildLifeDep.js"></script>
+        <script src="./JS/news.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</main>
+</body>
+</html>

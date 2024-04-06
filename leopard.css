@@ -1,0 +1,364 @@
+@font-face {
+    font-family: rosela;
+    src: url(font/Rosela.ttf);
+}
+.leopard-container {
+    background: url(image2/leopardbg2.jpg);
+}
+.introduction {
+    padding: 1% 9%;
+    padding-bottom: 10%;
+    color: #f0f0f0;
+    background: url(image2/leopardbg1.jpg) fixed;
+}
+
+.intro {
+    width:auto;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding:0 35px;
+    border-radius: 50px;
+}
+
+.leopard-container h1{
+    font-size: 60px;
+    font-family:rosela;
+    text-align: center;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    
+   
+}
+@media (max-width:550px){
+    .intro {
+        margin-top:30%;
+        padding-top: 20px;
+}
+.intro h1{
+    font-size: 30px;
+}
+}
+h2 {
+    padding-bottom: 10px;
+}
+.leopard-container p{
+    line-height: 22px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
+    padding-bottom: 15px;
+}
+.introduction h1{
+    margin-top: 13%;
+}
+.introduction p{
+    line-height: 30px;
+}
+
+
+@media(max-width: 550px){
+    .threats h1{
+        font-size:25px;
+        color: #f0f0f0;
+    }
+}
+@media(max-width: 350px){
+    .threats h1{
+        margin-top: 40%;
+    }
+}
+
+.venue-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.vbox{
+    width: 400px;
+    overflow: hidden;
+    margin: 20px;
+    transition: .2s linear;
+}
+@media (max-width:550px){
+    .Venues h1 {
+        font-size: 30px;
+    }
+}
+.vbox img{
+    width: 100%;
+    height: 250px;
+    transform: scale(1) rotate(0deg);
+    transition: all .5s linear;
+}
+.vbox img:hover{
+    transform: scale(1.1) rotate(1deg);
+}
+.vencard{
+    padding: 16px;
+}
+.vencard h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.vencard p{
+    color: #000;
+    font-size: 18px;
+    line-height:26px;
+    text-align: justify;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+.vencard a{
+    text-decoration: none;
+    margin-left: 30%;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    background: #b5b1b1;
+
+}
+.vencard a:hover{
+    background: #444;
+    color: #fff;
+}
+@media (max-width:780px){
+    .vencard {
+        background:linear-gradient(135deg,rgba(255, 255, 255, 0.693),rgba(255, 255, 255, 0.299));
+        padding-bottom:20px;
+    }
+}
+/*-------------------------------THREATS-----------------------------------------------*/
+
+.threats h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font-size: 70px;
+}
+.threats p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.threat1 {
+    margin-bottom: 7%;
+    padding: 4% 9%;
+}
+.threats a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+@media(max-width: 780px){
+    .threat-content p{
+        padding:0 9%;
+    }
+    .threats h1{
+        font-size:25px;
+        color: #f0f0f0;
+    }
+    .threats p{
+    color: #f0f0f0;
+    }
+    .threats a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.threats a:hover{
+    color: #f0f0f0;
+    
+}
+}
+@media(max-width: 400px){
+    .threats h1{
+        font-size:25px;
+        color: #2d2c2c;
+    }
+    .threats p{
+    color: #2d2c2c;
+    }
+    .threats a{
+    text-decoration: none;
+    color: #2d2c2c;
+}
+.threats a:hover{
+    color: rgb(51, 50, 49);
+    
+}
+}
+.threat-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.threatbox{
+    width:370px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    transition: .2s linear;
+}
+.threatbox:hover{
+    background-color: rgba(220, 218, 218, 0.532);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+.threatbox img{
+    width: 100%;
+    height: 250px;
+}
+
+.threatcard{
+    padding: 16px;
+}
+.threatcard h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.threatcard p{
+    color: #000;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: justify;
+    font-weight: 600;
+}
+.threatcard ul li{
+    font-weight: 600;
+}
+
+
+/* edit pop */
+
+.poptitle{
+    text-align: center;
+    color: rgb(5, 5, 5);
+}
+.editbtn {
+    padding: 15px 20px;
+    background: #2f342f ;
+    border-top: 1px soild rgba(0,0,0,0.1);
+    border-radius: 50px;
+    color: #e5e0e0;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   margin-left: 50px;
+   margin-top: 30px;
+   font-size: 17px;
+} 
+
+.btn {
+    padding: 15px 20px;
+    background: #2a2b2a;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* Hidden by default */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+    /*background:url(editingbg.jpg);*/
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 50px;
+    background: white;
+}
+.modal-content textarea{
+    padding: 10px;
+    
+    border-radius: 20px;
+    border: none;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.leopardtitle  {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.leopardpara{
+    width: 100%;
+    height: 150px;
+}
+.subtitle {
+    width: 33%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subpara {
+    width: 33%;
+    height: 150px;
+}
+ .tpara{
+    width: 100%;
+ }
+
+.list {
+    width: 33%;
+    height: 110px;
+}
+
+.list1 {
+    width: 33%;
+    height: 150px;
+}
+
+.horizontal-line {
+    border-top: 1px solid white; /* Adjust thickness and color as needed */
+    margin: 20px 0; /* Adjust margin spacing as needed */
+}
+
+@media (max-width:1040px){
+    .modal-content textarea{
+        width: 100%;
+    }
+
+    .subpara {
+        height: 100px;
+    }
+
+}

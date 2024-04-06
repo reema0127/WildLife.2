@@ -1,0 +1,290 @@
+/*-----------------------------INTRODUCTION----------------------------------*/
+@font-face {
+    font-family: rosela;
+    src: url(font/Rosela.ttf);
+}
+    
+.animal-container h1 {
+    font-size: 60px;
+    font-family:rosela;
+    margin-top:3%;
+    text-align: center;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    color: #fff;
+}
+.animal-container p{
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+@media(max-width: 550px){
+    .animal-container h1{
+        font-size:25px;
+        margin-top: 10%;
+    }
+    .animal-container p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+@media(width:768px){
+    .animal-container h1{
+        font-size:50px;
+    }
+}
+.animal-container{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    margin-top: 5%;
+}
+@media (max-width:2560px){
+    .animal-container{
+        margin-top: 3%;
+    }
+}
+.container {
+    background: url(Images/animalwallpaperbg.jpg) fixed;
+    background-size: cover;
+    height: auto;
+}
+.animal-container-sub {
+    width:auto;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+.animal-container-sub a{
+    text-decoration: none;
+    color: #fff;
+}
+.animal-container-sub a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: .5s;
+    color: rgb(212, 200, 185);
+}
+@media (max-width:425px) {
+    .container1,.container2,.container3,.container4{
+        margin: 20px;
+    }
+    .back p {
+        font-size: 5px;
+    }
+}
+/*-----------------CARDS-----------------------------------*/
+.cardheader {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+    color: #fff;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.container1,.container2,.container3,.container4{
+    width: 350px;
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 10%;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.container1:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.container2:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.container3:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.container4:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.front1,
+.front2,
+.front3,
+.front4,
+.back{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50,50,50,0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front1{
+    background-image: url(Images/cardimg1.jpg);
+}
+.front2{
+    background-image: url(Images/cardimg2.jpg);
+}
+.front3{
+    background-image: url(Images/cardimg3.jpg);
+}
+.front4{
+    background-image: url(Images/cardimg4.jpg);
+}
+.back{
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transform: rotateY(180deg);
+}
+.back h1{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.back p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: azure;
+}
+.back a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 40%;
+}
+.back a:hover{
+    background-color: rgba(240, 248, 255, 0.356);
+    padding: 10px;
+    border-radius: 10px;
+}
+/* edit pop */
+
+.poptitle{
+    text-align: center;
+    color: rgb(11, 11, 11);
+}
+.editbtn {
+    padding: 15px 20px;
+    background: white;
+    border-top: 1px soild rgba(0,0,0,0.1);
+    border-radius: 50px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   margin-top: 70px;
+   font-size: 17px;
+} 
+
+.btn {
+    padding: 15px 20px;
+    background: #2a2b2a;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+/* Hidden by default */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+    /*background:url(editingbg.jpg);*/
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 50px;
+    background: #000;
+    background: white;
+}
+.modal-content textarea{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hidden by default */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    
+}
+.ptitle {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.para {
+     width: 100%;
+     height: 80px;
+}
+
+.cardt {
+    width: 24.6%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardpara {
+    width: 24.5%;
+    height: 200px;
+}
+

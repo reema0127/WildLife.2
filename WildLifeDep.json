@@ -1,0 +1,27 @@
+    [
+        {
+           "title" : "The Department of Wildlife Conservation",
+           "para1" : "The Department of Wildlife Conservation Conserves the Biodiversity of Sri Lanka. Every individual species is provided legal protection through the Fauna and Flora Protection Ordinance No 2 of 1937.",
+           "para2" : "Habitats and the associated biodiversity are protected through a network of Protected Areas.International Trade of Wild Species are Regulated both using the provisions Fauna and Flora Protection Ordinance a the Provisions of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).",
+            "title2" : "History of DWC"
+
+        },
+        {
+            "para3" :"The first attempt to stop the destruction of wildlife resources of Sri Lanka was made in 1889, by the Conservator of Forests , Colonel Clark, R.A.He brought the disastrous effects of the commercial exploitation of wildlife resources in the country, to the notice of the Government of Ceylon and advocated immediate legislation which would forbid the destroying wild animals, for the export of hides. His successor in office, Mr. A.F.Broun continued the agitation and persuaded the Government to pass two Ordinances, titled “An Ordinance to prevent the wanton destruction of elephants, buffaloes and other game” and “An Ordinance to readjust the customs duties leviable on firearms and to impose an export duty on certain hides and horns”."
+           ,"para4" : "In the subsequent years, after a concentrated effort, protectionists of the country managed to see a proclamation which prohibited the export of deer hides for trade. Further, it was decided to employ paid watchers within selected and well defined localities, to put a stop to the illegal practice of killing wild animals.",
+           "para5" : "For more information about The Department of WildLife Conservation Sri Lanka",
+           "btn" : "Click here"
+        },
+        {
+            "title3" : "Protected Areas",
+            "sh1" : "Hakgala",
+            "sh2" : "Yala ",
+            "sh3" : "Ritigala",
+            "para6" : "Hakgala Strict Nature Reserve is one of the three strict nature reserves in Sri Lanka, the only one in wet zone.The reserve is an important isolated cloud forest which supports a number of faunal species.",
+            "para7" : "Yala (යාල) National Park is the most visited and second largest national park in Sri Lanka, bordering the Indian Ocean. The park consists of five blocks, three of which are now open to the public",
+            "para8" : "Ritigala mountain consists of four peaks which rise steeply from the surrounding plain. The mountain is 6.5 km in length, and divided into northern and southern blocks by Maha-Degala Gorge."
+        },
+        {
+            "galtitle" : "Image Gallery"
+        }
+    ]

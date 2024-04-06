@@ -1,0 +1,72 @@
+[
+    {
+        "title1" : "Sri Lankan Leopard",
+        "para1" : "The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies native to Sri Lanka. It was first described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala.Since 2020, the Sri Lankan leopard has been listed as Vulnerable on the IUCN Red List, as the population is estimated at less than 800 mature individuals, and is probably declining.The Sri Lankan leopard has a tawny or rusty yellow coat with dark spots and close-set rosettes. Seven females measured in the early 20th century averaged a weight of 64 lb (29 kg) and had a mean head-to-body-length of 1.04 m (3 ft 5 in) with a 77.5 cm (2 ft 6.5 in) long tail, the largest being 1.14 m (3 ft 9 in) with a 84 cm (2 ft 9 in) long tail; 11 males averaged 56 kg (124 lb), the largest being 77 kg (170 lb), and measured 1.27 m (4 ft 2 in) with a 86 cm (2 ft 10 in) long tail, the largest being 1.42 m (4 ft 8 in) with a 97 cm (3 ft 2 in) long tail.The Sri Lankan leopard has possibly evolved to become a rather large leopard subspecies, because it is the apex predator in the country. Large males have been suggested to reach almost 100 kg (220 lb), but evidence for this is lacking."
+    },
+    {
+        "title2" : "Venues Where Leopards are found",
+        "sh1" : "Horton Plains National Park",
+        "para2" : "The misty highlands of Sri Lanka is hardly a place one would imagine encountering a leopard. But despite this, historically, the highlands are where most of the island forests are covered,it was and where most of the wildlife animals roamed. With the onset of the British taking over the country, they cleared these vast forests to grow Coffee and subsequently Tea.",
+        "sh2" :"Wilpattu National Park",
+        "para3" : "The land of lakes, Wilpattu is located on the North-Western end of the island. This is Sri Lanka’s largest national park and is quite a contrast to the landscape of Yala. Where Yala is mostly dry scrub forest, open lagoons and plains, Wilpattu is denser with dark forests being the dominant landscape, along with few open spaces which are usually consisting of natural lakes known as Villus.",
+        "sh3" : "Kumana National Park",
+        "para4" : "Kumana, the land of mystery and awe is located on the far eastern corner of the island. It is connected to Yala and is part of the same ecosystem.But due to the access and location, it is quite a long drive to reach compared to Yala. Kumana was initially famous as a bird sanctuary with many species of birds nesting in the waters of Kumana Villu."
+    },
+
+    {
+        "title3" : "Threats",
+        "para5" : "The Sri Lankan leopard encounters numerous threats, the institution dedicated to its conservation is known as Leopocon to vist there site",
+        "sh4" : "Habitat Loss",
+        "para6" : "Deforestation, land conversion for agriculture, and urbanization have led to a significant reduction in the leopard's natural habitat.As forests are cleared for human activities, leopards lose their hunting grounds and face increased human-wildlife conflict.",
+        "sh5" : "Consequences of Habitat Loss",
+        "list" : [
+            "Population Decline of Leopards",
+            "Increased Human-Wildlife Conflict",
+            "Changes in Behavior and Diet",
+            "Genetic Isolation"
+        ],
+        "sh6" :"Prevention Strategies",
+        "list1" : [
+            "Protected Areas and National Parks",
+            "Corridor Creation",
+            "Habitat Restoration",
+            "Land Use Planning",
+            "Climate Change Mitigation"
+        ],
+        "sh7" : "Human-Wildlife Conflict",
+        "para7": "As human populations expand and encroach into leopard habitats, conflicts can arise. Leopards may prey on livestock, leading to retaliatory killings by farmers to protect their animals. This contributes to a negative perception of leopards and poses a threat to their survival.",
+        "sh8": "Consequences of Human-Wildlife Conflict",
+        "list2" : [
+            "Loss of Livestock and Crops",
+            "Economic Impact on Communities",
+            "Displacement of Wildlife",
+            "Loss of Biodiversity"
+        ],
+        "sh9" : "Prevention Strategies",
+        "list3" : [
+            "Community Education and Awareness",
+            "Livestock Management",
+            "Crop Protection",
+            "Habitat Management",
+            "Financial Compensation and Insurance"
+        ],
+        "sh10" : "Climate Change Mitigation",
+        "para8" : "Addressing climate change, which can impact leopard habitats and prey availability, is an important aspect of conservation. This involves supporting initiatives that aim to reduce greenhouse gas emissions and promote climate resilience.",
+        "sh11":"Consequences of Climate Change Mitigation",
+        "list4" : [
+            "Altered Prey Distribution",
+            "Shifts in Habitat Suitability",
+            "Water Scarcity",
+            "Disease Spread"
+        ],
+        "sh12" : "Prevention Strategies",
+        "list5" : [
+            "Reducing Greenhouse Gas Emissions",
+            "Habitat Conservation and Restoration",
+            "Wildlife Corridor Protection",
+            "Community-Based Adaptation",
+            "Promoting Sustainable Agriculture"
+        ]
+
+    }
+]

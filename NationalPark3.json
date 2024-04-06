@@ -1,0 +1,79 @@
+[{
+        "mainheading" : "Wild Life Sites in Sri Lanka",
+        "site3" : "Kumana National Park",
+        "para1" : "Kumana National Park, situated in Sri Lanka, has earned acclaim for its remarkable avifauna, notably hosting extensive gatherings of migratory waterfowl and wading birds. Positioned 391 kilometers (243 mi) southeast of Colombo along the southeastern coast of Sri Lanka, Kumana seamlessly connects with Yala National Park. Originally named Yala East National Park, it officially adopted the name Kumana on 5 September 2006.",
+        "para2" : "The park faced a period of closure from 1985 to March 2003 due to attacks by the Liberation Tigers of Tamil Eelam (LTTE). Additionally,Kumana National Park was impacted by the devastating Boxing Day tsunami in 2004. Despite these challenges, the park continues to be a haven for diverse bird species, drawing nature enthusiasts and birdwatchers to witness the captivating avian life in this unique ecosystem.",
+        "para3" : "Established in 1938, the Kumana Bird Sanctuary is an integral part of the Kumana National Park in Sri Lanka. Renowned as a vital nesting and breeding ground, this sanctuary boasts a rich avian population with a recorded count of 255 bird species. Notably, between April and July, the Kumana swamp area witnesses a spectacular migration of tens of thousands of birds. ",
+        "para4" : "Among the breeding inhabitants, rare species such as the black-necked stork, lesser adjutant, Eurasian spoonbill, and great thick-knee, belonging to the families Scolopacidae and Charadriidae, are prominent. The swamp attracts migratory visitors like pintail snipes, covering distances of 9,000 to 11,000 kilometers from Siberia. Large flocks of Asian openbill, glossy ibis, purple heron, great egret, Indian pond heron, black-crowned night heron, intermediate egret, little egret, spot-billed pelican, Indian cormorant, little cormorant, common moorhen, watercock,lesser whistling duck, and little grebe contribute to the vibrant birdlife."
+
+},
+{
+        "galleryheading" : "Gallery",
+        "tt1" : "Name",
+        "tt2" : "Diet",
+        "tt3" : "Physical Characteristics",
+        "tt4" : "Fun Fact",
+        "animal1" : "Sri Lankan Pelicans",
+        "animal2" : "Spoonbills",
+        "animal3" : "Little Cormorants",
+        "list1" : [
+                "Pelicans in Sri Lanka, like their counterparts elsewhere, have a diverse diet that primarily consists of fish.",
+                "Here are the primary components of the golden jackal's diet:"
+        ],
+        "smllist1" : [
+                "Fish",
+                "Crustaceans",
+                "Insects"
+        ],
+        "list2" : [
+                "Sri Lankan pelicans are large birds with a wingspan ranging from about 8 to 10 feet (2.5 to 3 meters).",
+                "They typically have a predominantly white plumage, with black markings on their wings and tail.",
+                "The head and neck may have a yellowish tint, and during the breeding season, adult birds may develop a pinkish hue on the upper chest"
+        ],
+        "list3" : [
+                "Pelicans are known for their distinctive, expandable throat pouches.",
+                " Pelicans are highly adaptable and can be found in various habitats, including coastal areas, lakes, and rivers.",
+                "Pelicans primarily feed on fish, using their long bills and pouches to scoop up prey"
+        ],
+        "list4" : [
+                "Spoonbills are generally opportunistic feeders with a diet that includes a variety of aquatic organisms.",
+                "Here are some common components of a spoonbill's diet:"
+        ],
+        "smllist2" : [
+                "Fish",
+                "Invertebrates",
+                "Amphibians",
+                "Crustaceans"
+        ],
+        "list5" : [
+                "Spoonbills are distinctive wading birds known for their unique physical features.",
+                "The most obvious characteristic of spoonbills is their long, flat, and spoon-shaped bill.",
+                "Spoonbills often have striking and colorful plumage."
+        ],
+        "list6" : [
+                "Spoonbills are distinctive wading birds known for their unique bill shape and vibrant plumage",
+                "Spoonbills are filter feeders.",
+                "Spoonbills are known for their striking plumage, which can range from white to shades of pink, depending on the species."
+        ],
+        "list7" : [
+                "Little Cormorants (Microcarbo niger) are aquatic birds that primarily feed on fish but also consume a variety of other aquatic prey.",
+                "Here are some details about the diet of Little Cormorants:"
+        ],
+        "smllist3" : [
+                "Fish",
+                "Crustaceans",
+                "Insects",
+                "Amphibians"
+        ],
+        "list8" : [
+                "As the name suggests, the Little Cormorant is relatively small compared to some other cormorant species.",
+                "It typically measures around 50 to 55 cm (20 to 22 inches) in length.",
+                "In breeding plumage, Little Cormorants often have a glossy, all-black plumage."
+        ],
+        "list9" : [
+                "Little Cormorants are widespread and can be found in a variety of aquatic habitats, including lakes, rivers, ponds, and coastal areas.",
+                "Their diet primarily consists of fish, but they may also consume other aquatic prey, such as crustaceans and insects",
+                "Little Cormorants are known for their guttural and croaking calls."
+        ]
+}
+]

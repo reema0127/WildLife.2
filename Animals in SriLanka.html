@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauna of Sri Lanka</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Animals in SriLanka.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+      <!---------to include alpine.js!-------->
+      <script src="//unpkg.com/alpinejs" defer></script>
+      <!--------manifest ----------------->
+      <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+     <link rel="manifest" href="./site.webmanifest">
+     <meta name="msapplication-TileColor" content="#da532c">
+     <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!---------------------------------------NAV BAR ------------------------------------------->
+    <header class="header">
+        <div class="containernav">
+            <div class="logo">
+                <img src="logo/logowhite.png" alt="logo">
+            </div>
+            <div class="menu">
+                <div class="head">
+                    <div ><a href="./login.html"><button type="button" class="phone-login">Login</button></a></div>
+                    <button type="button" class="close-menu-btn"></button>
+                </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./NationalPark1.html">Introduction</a>
+                    </li>
+                    <li><a href="./WildLifeDep.html">DWC</a></li>
+                    <li class="dropdown">
+                        <a href="#">Animals</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
+                             <li><a href="./leopard.html"><span>Leopard</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">National Parks</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./yala.html"><span>Yala</span></a></li>
+                            <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a href="./login.html"><button type="button" class="login-btn">Login</button></a>
+                <button type="button" class="open-menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+            </div>
+        </div>
+    </header> 
+    <main>
+        <section x-data="animaldata">
+            <section class="container">
+                <section class="animal-container">
+                    <nav class="animal-container-sub">
+                        <h1 x-text="title"></h1>
+                        <p x-text="para1"></p>
+                        <p x-text="para2"></p> 
+                        <p x-text="para3"></p>
+                            <p x-text="para4">
+                                <br><br>
+                                <a href="https://www.yalasrilanka.lk/" class="link">Visit Yala National Park Here</a>
+                                <a href="https://www.dwc.gov.lk/wnp/" class="link">Visit Wilpattu National Park Here</a>
+                        </p>
+                    </nav>
+                </section>
+                <h1 class="cardheader" x-text="title1"></h1>
+                <section class="cardcontainer">
+                    <nav class="container1">
+                        <nav class="card">
+                            <nav class="front1"></nav>
+                            <nav class="back">
+                                <h1 x-text="ct1"></h1>
+                                <p x-text="para5"></p>
+                                 <span><a href="https://en.wikipedia.org/wiki/Sri_Lankan_sloth_bear" target="_blank">Read More</a></span>
+                            </nav>
+                        </nav>
+                    </nav>
+                     <nav class="container2">
+                            <nav class="card">
+                                <nav class="front2"></nav>
+                                <nav class="back">
+                                    <h1 x-text="ct2"></h1>
+                                    <p x-text="para6"></p>
+                                    <span><a href="https://en.wikipedia.org/wiki/Grizzled_giant_squirrel" target="_blank">Read More</a></span>
+                                </nav>
+                            </nav>
+                    </nav>
+                    <nav class="container3">
+                        <nav class="card">
+                            <nav class="front3"></nav>
+                            <nav class="back">
+                                <h1 x-text="ct3"></h1>
+                                <p x-text="para7"></p>
+                                      <span><a href="https://en.wikipedia.org/wiki/Toque_macaque" target="_blank">Read More</a></span>
+                            </nav>
+                        </nav>
+                    </nav>
+                     <nav class="container4">
+                            <nav class="card">
+                                <nav class="front4"></nav>
+                                <nav class="back">
+                                    <h1 x-text="ct4"></h1>
+                                    <p x-text="para8"></p>
+                                         <span><a href="https://en.wikipedia.org/wiki/Serendib_scops_owl" target="_blank">Read More</a></span>
+                                </nav>
+                            </nav>
+                    </nav>
+                </section>
+                <!------------------------------------------FOOTER-------------------------------------------------------->
+            <footer>
+                <div class="footer">
+                     <div class="col-1">
+                         <h3>Useful  Links</h3>
+                         <a href="#">About</a>
+                         <a href="#">Home</a>
+                         <a href="#">Contact</a>
+                     </div>
+                     <div class="col-2">
+                         <h3>Newsletter </h3>
+                         <form>
+                             <input type="text" placeholder="Your Email Address" required>
+                             <br>
+                             <button type="submit">Subscribe Now</button>
+                         </form>
+                     </div>
+                     <div class="col-3">
+                         <h3>Contact</h3>
+                         <p>123, XYZ Road,BSK 3 <br>colombo , Sri Lanka</p>
+                         <div class="social-icons">
+                             <ion-icon name="logo-facebook"></ion-icon>
+                             <ion-icon name="logo-twitter"></ion-icon>
+                             <ion-icon name="logo-instagram"></ion-icon>
+                         </div>
+                
+                     </div>
+                </div>
+            </footer>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+           </nav>
+        </main>
+       </div>
+            <!----------------------content
+            https://www.wikipedia.org/---------------------------------->
+            <!-----------------------images
+            https://www.google.com/imghp?hl=en-------------------------->
+            <!---------------------font
+            https://fonts.google.com/
+            https://www.dafont.com/----------------------------------->
+        </section>
+        <script src="./JS/Animals in SriLanka.js"></script>
+        <script src="./JS/news.js"></script>
+</body>
+</html>

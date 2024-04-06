@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table{
+    padding:  15px 50px;
+    line-height: 25px;
+    margin-top:2%;
+    }
+    .table-content{
+        border-collapse:collapse ;
+        background:#0e0e0e8b;
+        width: 100%;
+    }
+    th,td {
+        padding: 1rem ;
+        border: solid black 2px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #F2EAE4;
+    }
+    tr:nth-child(even){
+        background: #2121186b;
+    }
+    /* Hidden by default */
+    .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%;
+        overflow: auto; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4);
+        padding-top: 60px;
+        
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        /*background:url(editingbg.jpg);*/
+        margin: 5% auto; 
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; 
+        border-radius: 50px;
+        background: white;
+    }
+    .modal-content textarea{
+        padding: 10px;
+        /*background:transparent;*/
+        backdrop-filter:blur(50px) ;
+        border-radius: 20px;
+    }
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .tabletitle {
+        width: 22%;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .tabledata {
+        width: 22%;
+        height: 180px;
+    }
+
+    </style>
+</head>
+<body>
+    <section class="pop-up"><button onclick="openEditor1()" class="editbtn" >Click to Edit the Content on this page</button>
+        <!-- The Modal 1 -->
+        <div id="editModal1" class="modal">
+        <!-- Modal content 1 -->
+        <div class="modal-content">
+            <span class="close" onclick="closeEditor1()" >&times;</span>
+            <h2 class="poptitle">Edit the content</h2>
+            <textarea id="editedTabletitle1" class="tabletitle" ></textarea>
+            <textarea id="editedTabletitle2" class="tabletitle" ></textarea>
+            <textarea id="editedTabletitle3" class="tabletitle" ></textarea>
+            <textarea id="editedTabletitle4" class="tabletitle" ></textarea>
+
+            <textarea id="editedAnimal1" class="tabledata" ></textarea>
+            <textarea id="editeddata1" class="tabledata"></textarea>
+            <textarea id="editeddata2" class="tabledata"></textarea>
+            <textarea id="editeddata3" class="tabledata"></textarea>
+            <button onclick="saveChanges1()" class="btn">Save Changes</button>
+            <button onclick="closeEditor1()" class="btn" > Close</button>
+        </div>
+        </div>
+    </section>
+    <table class="table-content">
+        <tr>
+            <th  id="tabletitle1">animal</th>
+            <th  id="tabletitle2">Diet</th>
+            <th  id="tabletitle3">physical charactor</th>
+            <th  id="tabletitle4">fun Fact</th>
+        </tr>
+        <tr>
+            <tr>
+                <td data-cell="Name" id="animal1">leopard</td>
+                <td data-cell="Diet" id="data1">meat</td>
+                <td data-cell="Physical Characteristics" id="data2">dfjgvhdjfhjvhdf</td>
+                <td data-cell="Fun Fact" id="data3">efrgdtfhbfd</td>
+            </tr>
+        </tr>
+   
+       
+    </table>
+    <script src="./table.js"></script>
+</body>
+</html>

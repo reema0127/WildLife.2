@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="admin_dashboard.css">
+<link rel="stylesheet" href="main.css">
+<!--------manifest ----------------->
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="./site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!---------------------------------------NAV BAR ------------------------------------------->
+    <header class="header">
+        <div class="containernav">
+            <div class="logo">
+                <img src="logo/logowhite.png" alt="logo">
+            </div>
+            <div class="menu">
+                <div class="head">
+                    <div ><a href="./login.html"><button type="button" class="phone-login">Logout</button></a></div>
+                    <button type="button" class="close-menu-btn"></button>
+                </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./NationalPark1.html">Introduction</a>
+                    </li>
+                    <li><a href="./WildLifeDep.html">DWC</a></li>
+                    <li class="dropdown">
+                        <a href="#">Animals</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
+                             <li><a href="./leopard.html"><span>Leopard</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">National Parks</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./yala.html"><span>Yala</span></a></li>
+                            <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a href="./login.html"><button type="button" class="login-btn">Logout</button></a>
+                <button type="button" class="open-menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+            </div>
+        </div>
+    </header> 
+    <div class="container">
+        <div class="header2">
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <h1>Welcome Admin! </h1>
+            <h1>Admin Dashboard</h1>
+        </div>
+        <div class="dashboard">
+            <div class="card">
+               
+                <h2>Your Profile Details</h2>
+                <div class="details">
+                    <p>Username: <span id="loggedInUsername"></span></p>
+                    <p>Password: <span id="loggedInPassword"></span></p>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Newsletter Subscriptions</h2>
+
+                <ul id="subscriptionsList"></ul>
+            </div>
+            
+        </div>
+        <div class="logout-btn">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="./JS/admin_dashboard.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

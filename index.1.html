@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildLife | Sri Lanka</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+     <!---------to include alpine.js!-------->
+     <script src="//unpkg.com/alpinejs" defer></script>
+     <!-- logo scripts -->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <!--------manifest ----------------->
+     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+   <!---------------------------------------NAV BAR ------------------------------------------->
+   <header class="header">
+    <div class="containernav">
+        <div class="logo">
+            <img src="logo/logowhite.png" alt="logo">
+        </div>
+        <div class="menu">
+            <div class="head">
+                <div ><a href="./login.html"><button type="button" class="phone-login">Logout</button></a></div>
+                <button type="button" class="close-menu-btn"></button>
+            </div>
+            <ul>
+                <li><a href="./index.1.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="./NationalPark1.1.html">Introduction</a>
+                </li>
+                <li><a href="./WildLifeDep.1.html">DWC</a></li>
+                <li class="dropdown">
+                    <a href="#">Animals</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./Animals in SriLanka.1.html"><span>Indemic Animal</span></a></li>
+                         <li><a href="./leopard.1.html"><span>Leopard</span></a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">National Parks</a>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ul class="sub-menu">
+                        <li><a href="./yala.1.html"><span>Yala</span></a></li>
+                        <li><a href="./wilpattu.1.html"><span>Wilpattu</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <a href="./login.html"><button type="button" class="login-btn">Logout</button></a>
+            <button type="button" class="open-menu-btn">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </div>
+</header> 
+    <!-----------------------------------------------------BG-IMG------------------------------------------>
+    <nav class="bg-image">
+        <nav class="bg-content">
+            <section class="bg-content-sub" x-data="introdata">
+                <h1 x-text="introtitle"></h1>
+                <p x-text="intropara"></p>
+            <button type="button"><a href="NationalPark1.html">learn more</a></button>
+            </section>
+        </nav>
+    </nav>
+      
+    <!------------------------------------------INTRODUCTION-------------------------------------->
+    <nav class="container1">
+          <!--=============================EDITING POPUP=============================== -->
+     <section class="pop-up"><button onclick="openEditor1()"  class="editbtn">Click to here to Edit the Content</button>
+        <!-- The Modal 1 -->
+        <div id="editModal1" class="modal">
+        <!-- Modal content 1 -->
+        <div class="modal-content">
+            
+                <span class="close" onclick="closeEditor1()">&times;</span>
+                <h2 class="poptitle">Edit the content</h2>
+                <textarea id="editedHeading" class="hometitle"></textarea>
+                <textarea id="editedParagraph"></textarea>
+                <textarea id="editedHeading2" class="hometitle"></textarea>
+                <textarea id="editedSubtitle1" class="responsibility"></textarea>
+                <textarea id="editedSubtitle2" class="responsibility"></textarea>
+                <textarea id="editedSubtitle3" class="responsibility"></textarea>
+                <textarea id="editedSubtitle4" class="responsibility"></textarea>
+                <textarea id="editedSubtitle5" class="responsibility"></textarea>
+                <textarea id="editedSubtitle6" class="responsibility"></textarea>
+                <textarea id="editedSubtitle7" class="responsibility"></textarea>
+                <textarea id="editedSubtitle8" class="responsibility"></textarea>
+                <textarea id="editedpara1" class="responsibilitypara"></textarea>
+                <textarea id="editedpara2" class="responsibilitypara"></textarea>
+                <textarea id="editedpara3" class="responsibilitypara"></textarea>
+                <textarea id="editedpara4" class="responsibilitypara"></textarea>
+                <textarea id="editedpara5" class="responsibilitypara"></textarea>
+                <textarea id="editedpara6" class="responsibilitypara"></textarea>
+                <textarea id="editedpara7" class="responsibilitypara"></textarea>
+                <textarea id="editedpara8" class="responsibilitypara"></textarea>
+                <textarea id="editedHeading3" class="hometitle"></textarea>
+                <textarea id="editedSubtitle9" class="newspop"></textarea>
+                <textarea id="editedSubtitle10" class="newspop"></textarea>
+                <textarea id="editedSubtitle11" class="newspop"></textarea>
+                <textarea id="editedSubtitle12" class="newspop"></textarea>
+                <textarea id="editedpara9" class="newspara"></textarea>
+                <textarea id="editedpara10" class="newspara"></textarea>
+                <textarea id="editedpara11" class="newspara"></textarea>
+                <textarea id="editedpara12" class="newspara"></textarea>
+                <button onclick="saveChanges1()" class="btn">Save Changes</button>
+                <button onclick="closeEditor1()" class="btn" > Close</button>
+        </div>
+        </div>
+        </section>
+        <section class="intro-container" x-data="subsection1">
+        <h1 x-text="subtitle1" id="title1"></h1>
+              <p x-text="para1"  id="para1"></p>
+        </section>
+     <!----------------------------------------RESPONSIBILITIES----------------------------------->
+        <section x-data="responsibility">
+            <h1 class="heading" x-text="restitle" id="title2"></h1>
+            <nav class="box-container">
+                <nav class="box">
+                    <h1 x-text="restitle1"></h1>
+                    <h3 x-text="ressubtitle1" id="subtitle1"></h3>
+                    <p x-text="respara1" id="para2"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle2"></h1>
+                    <h3 x-text="ressubtitle2" id="subtitle2" ></h3>
+                    <p x-text="respara2" id="para3"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle3"></h1>
+                    <h3 x-text="ressubtitle3" id="subtitle3"></h3>
+                    <p x-text="respara3" id="para4"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle4"></h1>
+                    <h3 x-text="ressubtitle4" id="subtitle4"></h3>
+                    <p  x-text="respara4" id="para5"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle5"></h1>
+                    <h3 x-text="ressubtitle5" id="subtitle5"></h3>
+                    <p  x-text="respara5" id="para6"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle6"></h1>
+                    <h3 x-text="ressubtitle6" id="subtitle6"></h3>
+                    <p  x-text="respara6" id="para7"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle7"></h1>
+                    <h3 x-text="ressubtitle7" id="subtitle7"></h3>
+                    <p  x-text="respara7" id="para8"></p>
+                </nav>
+                <nav class="box">
+                    <h1 x-text="restitle8"></h1>
+                    <h3 x-text="ressubtitle8" id="subtitle8"></h3>
+                    <p  x-text="respara8" id="para9"></p>
+                </nav>
+            </nav>
+        </section>
+    </nav>
+     <!--------------------------------------------------------------NEWS-------------------------------------------------->
+     <nav class="news" x-data="newsdata">
+        <h1 x-text="newsheading" id="title3"></h1>
+        <nav class="news-container">
+            <nav class="newsbox">
+                <img src="Images/news1.jpg" alt="Iconic tusker">
+                <nav class="newscard">
+                    <h3 x-text="newssubheading1" id="subtitle9"></h3>
+                    <p x-text="newspara1" id="para10"></p>
+                    <a href="https://news.mongabay.com/2023/11/iconic-tuskers-plight-shows-challenges-in-managing-sri-lankas-wild-elephants/" class="newsbtn" target="_blank">MORE</a>
+                </nav>
+            </nav>
+            <nav class="newsbox">
+                <img src="Images/news2.jpg" alt="fishing cat">
+                <nav class="newscard">
+                    <h3 x-text="newssubheading2" id="subtitle10"></h3>
+                    <p x-text="newspara2" id="para11"></p>
+                    <a href="https://news.mongabay.com/2023/01/plastic-works-its-way-up-the-food-chain-to-hit-fishing-cats-study-shows/" class="newsbtn" target="_blank">MORE</a>
+                </nav>
+            </nav>
+            <nav class="newsbox">
+                <img src="Images/news3.jpg" alt="migrant birds">
+                <nav class="newscard">
+                    <h3 x-text="newssubheading3" id="subtitle11"></h3>
+                    <p x-text="newspara3" id="para12"></p>
+                    <a href="https://news.mongabay.com/2023/07/photos-sri-lankas-kalametiya-lagoon-draws-tourists-to-see-native-and-migrant-birds/" class="newsbtn" target="_blank">MORE</a>
+                </nav>
+            </nav>
+            <nav class="newsbox">
+                <img src="Images/news4.jpg" alt="leafless orchid">
+                <nav class="newscard">
+                    <h3 x-text="newssubheading4" id="subtitle12"></h3>
+                    <p x-text="newspara4"id="para13"></p>
+                    <a href="https://news.mongabay.com/2023/03/new-leafless-orchid-blooms-in-a-fragmented-sri-lankan-rainforest-named-after-a-precious-yellow-sapphire/" class="newsbtn" target="_blank">MORE</a>
+                </nav>
+            </nav>
+        </nav>
+    </nav>
+    
+    <!--===================================================FOOOER============================================= -->
+    <footer>
+        <div class="logofooter">
+            <img src="logo/logowhite.png" alt="">
+        </div>
+
+        <!-- social icons -->
+        <div class="social-media">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <!-- menu -->
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <h4>About</h4>
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">Login</a>
+            </div>
+            <div class="footer-wrapper">
+                <h4 class="newsletter-title">Newsletter </h4>
+                <section id="newsletter"> 
+                   <form id="subscribeForm"> 
+                       <input type="email" id="emailInput" placeholder="Enter your email">
+                       <button type="submit">Subscribe</button> 
+                   </form>
+               </section>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="webright">
+                <p>All rights reserved ©2024 WildLife Srilanka</p>
+        </div>
+    </footer>
+    <div id="overlayfooter" class="overlayfooter hidden"></div> <!-- Overlay for the popup -->
+    <div id="popupfooter" class="popupfooter hidden">
+        <div class="popup-contentfooter">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <ion-icon name="checkmark-done-circle"></ion-icon>
+            <p>You have successfully subscribed!</p>
+        </div>
+    </div>
+    
+
+    <script src="./JS/news.js"></script> 
+    <script src="./JS/index.js"></script>   
+       
+</body>
+</html>
+ <!----------------------content
+        https://www.wikipedia.org/
+        https://news.mongabay.com/---------------------------------->
+    <!-----------------------images
+        https://www.google.com/imghp?hl=en
+        https://news.mongabay.com/---------------------------------->
+     <!---------------------font
+        https://fonts.google.com/
+        https://www.dafont.com/----------------------------------->
+
+   
+    

@@ -1,0 +1,52 @@
+[
+    {
+    "introtitle" : "WildLife Sanctuary of Sri Lanka",
+    "intropara" :"\"Embark on your adventure by stepping into the enchanting wilds of Sri Lanka and let the whispers of the wind guide you through untamed wonders,where every moment is a brushstroke of nature's masterpiece. \"" 
+    },
+{
+    "subtitle1" : "Sri Lankan WildLife" ,
+    "para1" : [
+        "Sri Lanka boasts a rich tapestry of wildlife, encompassing both its diverse flora and fauna thriving in their natural habitats. Remarkably, the country exhibits one of the highest rates of biological endemism, with 16% of its fauna and 23% of flowering plants being exclusive to the region. The most recent comprehensive update on Sri Lanka's biodiversity was presented in the 6th National Report of the Convention on Biological Diversity. This report, concluding at the end of 2018, offered an up-to-date inventory of species.",
+        "However, subsequent to this report, 54 new species were meticulously documented in 2019. This impressive tally includes 26 spiders (comprising 14 cellar spiders, 7 jumping spiders, 4 crab spiders, and 1 tarantula), 1 scorpion species, 5 mites and ticks, 14 reptiles (13 day geckos and 1 snake), 1 shrub frog, 1 orchid, and 6 lichens. In a subsequent update in 2021, Professors Devaka Weerakoon and Amila Sumanapala released a revised list of taxa, incorporating data up to the conclusion of 2020."
+    ]
+},
+{
+    "restitle" : "Our Responsiblities Towards WildLife",
+    "restitle1" : "1",
+    "ressubtitle1" : "Conservation",
+    "respara1" : "safeguarding and perserving the integrity of natural habitats to uphold biodiversity and avert the decline of various species.",
+    "restitle2" : "2",
+    "ressubtitle2" : "Responsible Tourism" ,
+    "respara2" : "When engaging in wildlife tourism, it's crucial to choose responsible and ethical operators to minimize disturbance to wildlife and their habitats.",
+    "restitle3" : "3",
+    "ressubtitle3" : "Conservation Education ",
+    "respara3" : " Raising awareness about the importance of wildlife conservation fosters a sense of responsibility and encourages positive actions in local communities and beyond.",
+    "restitle4" : "4",
+    "ressubtitle4" : "Advocacy",
+    "respara4" : "Supporting and promoting policies and practices that contribute to wildlife conservation on local, national, and international levels.",
+    "restitle5" :"5",
+    "ressubtitle5" : "Habitat Restoration",
+    "respara5" : "Engaging in initiatives to restore and rehabilitate degraded habitats, creating suitable living conditions for wildlife.",
+    "restitle6" : "6",
+    "ressubtitle6" : "Minimizing Pollution" ,
+    "respara6" : " Reducing pollution, waste, and the utilization of harmful chemicals to safeguard wildlife and their ecosystems.",
+    "restitle7" :"7",
+    "ressubtitle7" :"Climate Action",
+    "respara7" : "Addressing climate change is essential, as it directly affects wildlife habitats, migration patterns, and food sources. Taking steps to reduce our carbon footprint contributes to wildlife conservation.",
+    "restitle8" : "8",
+    "ressubtitle8" : "Promoting Coexistence",
+    "respara8" : "Encouraging coexistence between humans and wildlife, especially in areas where human activities overlap with natural habitats, helps reduce conflicts and supports the well-being of both"
+},
+{
+    "newsheading" : "Latest Wildlife News",
+    "newssubheading1" : "Iconic tusker’s plight shows challenges in managing Sri Lanka’s wild elephants" ,
+    "newspara1" : "When an iconic Sri Lankan elephant was recently injured in the leg by a trap gun, the incident received wide attention and criticism over the island’s poor handling of wild elephants.Agbo is one of Sri Lanka’s largest elephants, and since June, a team of wildlife veterinary surgeons and support staff have been treating the tusker.",
+    "newssubheading2" : "Plastic works its way up the food chain to hit fishing cats",
+    "newspara2" : "A recent study published in the journal Environmental Pollution found plastics in the scat of fishing cats dwelling in urban areas near Colombo, Sri Lanka.Potential health effects on the vulnerable small cat species are unknown, but based on knowledge of the impacts of plastic on other species there is cause for concern, say conservationists.",
+    "newssubheading3" : "Sri Lanka’s Kalametiya lagoon draws tourists to see native and migrant birds",
+    "newspara3" : "Nature plays a significant role in Sri Lanka’s tourism economy,Birdwatching and photography are drivers of nature-based tourism, and in Sri Lanka’s deep south, the Kalametiya and Lunama lagoons, famous as a bird-watching location, provide visitors the opportunity to see more than 160 bird species, including winter migrants",
+    "newssubheading4" : "Newly described leafless orchid in Sri Lanka named after a precious yellow sapphire",
+    "newspara4" : "A new leafless ground orchid found in a lowland wet zone forest in Sri Lanka has been named after a precious yellow sapphire as Gastrodia pushparaga, a gemstone commonly extracted from the same district.This is the third Gastrodia species found in Sri Lanka, after the 1906 identification of G. zeylanica and G. gunatillekeorum, described in 2020, 114 years later"
+}
+]
+
