@@ -66,7 +66,7 @@
     text-transform: capitalize;
     background-color: beige;
     color: #000;
-    box-shadow: 0 0 30px #000 rgba(0,0,0,0.3);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
     border: 2px solid transparent;
     cursor: pointer;
     transition: all ease .2s;
@@ -323,7 +323,7 @@ button a:hover{
 .editbtn {
     padding: 15px 20px;
     background: #1e261e ;
-    border-top: 1px soild rgba(0,0,0,0.1);
+    border-top: 1px  rgba(0,0,0,0.1);
     border-radius: 50px;
     color: #f5f3f3;
     font-weight: 700;
@@ -432,10 +432,5 @@ button a:hover{
     .newspara {
         height: 100px;
      }
-    
-}
-
-@media (max-width:640px) {
-    
     
 }
