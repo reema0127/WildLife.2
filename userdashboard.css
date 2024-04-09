@@ -2,8 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url(image2/loginbg.jpg);
+    background: url(Images/homewallpaper.jpg) fixed;
     background-size: cover;
+
 }
 
 .container {
@@ -45,33 +46,129 @@ body {
     font-size: 20px;
 }
 .card {
-    /* background:url(loginsmall.jpg); */
     background:transparent;
     backdrop-filter:blur(50px) ;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
-
 }
 
+.card1 {
+    /* background:transparent;
+    backdrop-filter:blur(50px) ; */
+    background: url(Images/homewallpaper.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+.card2 {
+    background: url(Images/sinharaja2.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+.card3 {
+    background: url(Images/udawalawe1.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+.card4 {
+    background: url(Images/kumana3.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
 
-.card h2 {
+.card5 {
+    background: url(image2/wilddep3.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+
+.card6 {
+    background: url(image2/wilddep1.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+
+.card7 {
+    background: url(Images/sinharaja3.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+
+.card8 {
+    background: url(image2/yalaimg8.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+
+.card9 {
+    background: url(image2/wilpattuimg8.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(202, 198, 198, 0.1);
+}
+
+.card h2,
+.card1 h2,
+.card2 h2,
+.card3 h2,
+.card4 h2,
+.card5 h2,
+.card6 h2,
+.card7 h2,
+.card8 h2,
+.card9 h2 {
     font-size: 24px;
-    color:white;
+    color: white;
     margin-top: 0;
     text-align: center;
 }
-
-.card button {
+.card button,
+.card1 button,
+.card2 button,
+.card3 button,
+.card4 button,
+.card5 button,
+.card6 button,
+.card7 button,
+.card8 button,
+.card9 button {
     padding: 10px;
     border-radius: 50px;
-} 
-.card a {
+}
+
+.card a,
+.card1 a,
+.card2 a,
+.card3 a,
+.card4 a,
+.card5 a,
+.card6 a,
+.card7 a,
+.card8 a,
+.card9 a {
     text-decoration: none;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 .logout-btn {
     text-align: center;
     margin-top: 20px;
