@@ -1,171 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" type="image/x-icon" href="logo/tabiconblack.png"> -->
-     <!--------manifest ----------------->
-     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="logo/tabiconblack.png">
-     <link rel="manifest" href="./site.webmanifest">
-     <meta name="msapplication-TileColor" content="#da532c">
-     <meta name="theme-color" content="#ffffff">
-    <title>Sign Up | Login</title>
-    <link rel="stylesheet" href="./login.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="icon" type="image/x-icon" href="logo/tabiconblack.png"> -->
+        <!--------manifest ----------------->
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="logo/tabiconblack.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <title>Sign Up | Login</title>
+        <link rel="stylesheet" href="./login.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+        <!---------to include alpine.js!-------->
+        <script src="//unpkg.com/alpinejs" defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
-    <!---------to include alpine.js!-------->
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-   
-</head>
-<body>
+    </head>
+    <body>
 
-    <!--------------------------------------------------Nav Bar---------------------------------------------------------->
-     <header class="header">
-            <div class="containernav">
-                <div class="logo">
-                    <img src="logo/logowhite.png" alt="logo">
-                </div>
-                <div class="menu">
-                    <div class="head">
-                        <!-- <div ><a href="./login.html"><button type="button" class="phone-login">Login</button></a></div> -->
-                        <button type="button" class="close-menu-btn"></button>
+        <!--------------------------------------------------Nav Bar---------------------------------------------------------->
+        <header class="header">
+                <div class="containernav">
+                    <div class="logo">
+                        <img src="logo/logowhite.png" alt="logo">
                     </div>
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li class="dropdown">
-                            <a href="./NationalPark1.html">Introduction</a>
-                        </li>
-                        <li><a href="./WildLifeDep.html">DWC</a></li>
-                        <li class="dropdown">
-                            <a href="#">Animals</a>
-                            <ion-icon name="chevron-down-outline"></ion-icon>
-                            <ul class="sub-menu">
-                                <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
-                                 <li><a href="./leopard.html"><span>Leopard</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">National Parks</a>
-                            <ion-icon name="chevron-down-outline"></ion-icon>
-                            <ul class="sub-menu">
-                                <li><a href="./yala.html"><span>Yala</span></a></li>
-                                <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <div class="menu">
+                        <div class="head">
+                            <!-- <div ><a href="./login.html"><button type="button" class="phone-login">Login</button></a></div> -->
+                            <button type="button" class="close-menu-btn"></button>
+                        </div>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="./NationalPark1.html">Introduction</a>
+                            </li>
+                            <li><a href="./WildLifeDep.html">DWC</a></li>
+                            <li class="dropdown">
+                                <a href="#">Animals</a>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                <ul class="sub-menu">
+                                    <li><a href="./Animals in SriLanka.html"><span>Indemic Animal</span></a></li>
+                                    <li><a href="./leopard.html"><span>Leopard</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">National Parks</a>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                <ul class="sub-menu">
+                                    <li><a href="./yala.html"><span>Yala</span></a></li>
+                                    <li><a href="./wilpattu.html"><span>Wilpattu</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <!-- <a href="./login.html"><button type="button" class="login-btn">Login</button></a> -->
+                        <button type="button" class="open-menu-btn">
+                            <span class="line line-1"></span>
+                            <span class="line line-2"></span>
+                            <span class="line line-3"></span>
+                        </button>
+                    </div>
                 </div>
-                <div class="header-right">
-                    <!-- <a href="./login.html"><button type="button" class="login-btn">Login</button></a> -->
-                    <button type="button" class="open-menu-btn">
-                        <span class="line line-1"></span>
-                        <span class="line line-2"></span>
-                        <span class="line line-3"></span>
-                    </button>
+            </header>   
+        <!---------------------------------------------LOGIN FORM--------------------------------------------------------------------->
+    <div class="container" >
+        <div class="sigin-signup">
+            <form action="" class="sign-in-form" id="loginForm">
+                <h2 class="title">Login in</h2>
+                <div class="input-field">
+                    <ion-icon name="person"></ion-icon>
+                    <input type="text" id="loginUsername" placeholder="Username" required><br>
+                </div>
+                <div class="input-field">
+                    <ion-icon name="lock-closed"></ion-icon>
+                    <input type="password" id="loginPassword" placeholder="Password" required><br>
+                </div>
+                <div class="rememberme">
+                    <p><span class="Remember"><input type="checkbox">Remember Me</span><a href="#" class="forgot">Forgot Password?</a></p>
+                </div>
+                <input type="submit" value="Login" class="btn" id="loginForm">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="https://web.facebook.com/login/?_rdc=1&_rdr" class="social-icon" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/" class="social-icon" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=ARZ0qKJ2DWpMtAmeok--MfAoBCaQ5ZA286t-Gv_s7ix0ipBhgIKkn-lSi5Y6RyhLYJE8gGEv8flkGw&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-251626799%3A1711209129504941&theme=mn&ddm=0" class="social-icon" target="_blank">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/login" class="social-icon" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign Up</a></p>
+            </form>
+            <!-------------------------------------------------signup-------------------------------------------------------------->
+            <form action="" class="sign-up-form" id="registrationForm">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <ion-icon name="person"></ion-icon>
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-field">
+                    <ion-icon name="mail"></ion-icon>
+                    <input type="email" placeholder="Email" id="email" required>
+                </div>
+                <div class="input-field">
+                    <ion-icon name="lock-closed"></ion-icon>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <!-- <select id="role" required class="role">
+                    <option value="">Select Role</option>
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                </select> -->
+                <input type="submit" value="Register" class="btn" id="loginForm">
+                <div class="agree">
+                    <p><input type="checkbox" required>I Agree to the Terms & Conditions?</p>
+                </div>
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="https://web.facebook.com/login/?_rdc=1&_rdr" class="social-icon" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/" class="social-icon" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=ARZ0qKJ2DWpMtAmeok--MfAoBCaQ5ZA286t-Gv_s7ix0ipBhgIKkn-lSi5Y6RyhLYJE8gGEv8flkGw&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-251626799%3A1711209129504941&theme=mn&ddm=0" class="social-icon" target="_blank">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/login" class="social-icon" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Login</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Already have an Account?</h3>
+                    <p>Don't miss out on the latest news and updates. Stay connected and be the first to know about Sri Lankan WildLife!</p>
+                    <button class="btn" id="sign-in-btn">Login</button>
                 </div>
             </div>
-        </header>   
-    <!---------------------------------------------LOGIN FORM--------------------------------------------------------------------->
-   <div class="container" >
-    <div class="sigin-signup">
-        <form action="" class="sign-in-form" id="loginForm">
-            <h2 class="title">Login in</h2>
-            <div class="input-field">
-                <ion-icon name="person"></ion-icon>
-                <input type="text" id="loginUsername" placeholder="Username" required><br>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Don't have an Account?</h3>
+                    <p>Welcome our newest member! Create an account now for exclusive access to exciting updates and news on Sri Lankan WildLife.</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <!--<img src="./signup.svg" alt="" class="image">-->
             </div>
-            <div class="input-field">
-                <ion-icon name="lock-closed"></ion-icon>
-                <input type="password" id="loginPassword" placeholder="Password" required><br>
-            </div>
-            <div class="rememberme">
-                <p><span class="Remember"><input type="checkbox">Remember Me</span><a href="#" class="forgot">Forgot Password?</a></p>
-            </div>
-            <input type="submit" value="Login" class="btn" id="loginForm">
-            <p class="social-text">Or Sign in with social platform</p>
-            <div class="social-media">
-                <a href="https://web.facebook.com/login/?_rdc=1&_rdr" class="social-icon" target="_blank">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-                <a href="https://www.instagram.com/accounts/login/" class="social-icon" target="_blank">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=ARZ0qKJ2DWpMtAmeok--MfAoBCaQ5ZA286t-Gv_s7ix0ipBhgIKkn-lSi5Y6RyhLYJE8gGEv8flkGw&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-251626799%3A1711209129504941&theme=mn&ddm=0" class="social-icon" target="_blank">
-                    <ion-icon name="logo-google"></ion-icon>
-                </a>
-                <a href="https://www.linkedin.com/login" class="social-icon" target="_blank">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-            </div>
-            <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign Up</a></p>
-        </form>
-        <!-------------------------------------------------signup-------------------------------------------------------------->
-        <form action="" class="sign-up-form" id="registrationForm">
-            <h2 class="title">Sign up</h2>
-            <div class="input-field">
-                <ion-icon name="person"></ion-icon>
-                <input type="text" id="username" placeholder="Username" required>
-            </div>
-            <div class="input-field">
-                <ion-icon name="mail"></ion-icon>
-                <input type="email" placeholder="Email" id="email" required>
-            </div>
-            <div class="input-field">
-                <ion-icon name="lock-closed"></ion-icon>
-                <input type="password" id="password" placeholder="Password" required>
-            </div>
-            <select id="role" required class="role">
-                <option value="">Select Role</option>
-                <option value="user">User</option>
-                <option value="admin">Admin</option>
-              </select>
-            <input type="submit" value="Register" class="btn" id="loginForm">
-            <div class="agree">
-                <p><input type="checkbox" required>I Agree to the Terms & Conditions?</p>
-            </div>
-            <p class="social-text">Or Sign in with social platform</p>
-            <div class="social-media">
-                <a href="https://web.facebook.com/login/?_rdc=1&_rdr" class="social-icon" target="_blank">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-                <a href="https://www.instagram.com/accounts/login/" class="social-icon" target="_blank">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=ARZ0qKJ2DWpMtAmeok--MfAoBCaQ5ZA286t-Gv_s7ix0ipBhgIKkn-lSi5Y6RyhLYJE8gGEv8flkGw&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-251626799%3A1711209129504941&theme=mn&ddm=0" class="social-icon" target="_blank">
-                    <ion-icon name="logo-google"></ion-icon>
-                </a>
-                <a href="https://www.linkedin.com/login" class="social-icon" target="_blank">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-            </div>
-            <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Login</a></p>
-        </form>
+        </div>
     </div>
-     <div class="panels-container">
-        <div class="panel left-panel">
-            <div class="content">
-                <h3>Already have an Account?</h3>
-                <p>Don't miss out on the latest news and updates. Stay connected and be the first to know about Sri Lankan WildLife!</p>
-                <button class="btn" id="sign-in-btn">Login</button>
-            </div>
-        </div>
-        <div class="panel right-panel">
-            <div class="content">
-                <h3>Don't have an Account?</h3>
-                <p>Welcome our newest member! Create an account now for exclusive access to exciting updates and news on Sri Lankan WildLife.</p>
-                <button class="btn" id="sign-up-btn">Sign up</button>
-            </div>
-            <!--<img src="./signup.svg" alt="" class="image">-->
-        </div>
-     </div>
-   </div>
-  
-<script src="./JS/login.js"></script>
-<script src="./JS/news.js"></script>
-</body>
-</html>
+    
+    <script src="./JS/login.js"></script>
+    <script src="./JS/news.js"></script>
+    </body>
+    </html>
