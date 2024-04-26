@@ -17,114 +17,77 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-   <!---------------------------------------NAV BAR ------------------------------------------->
-   <header class="header">
-    <div class="containernav">
-        <div class="logo">
-            <img src="logo/logowhite.png" alt="logo">
-        </div>
-        <div class="menu">
-            <div class="head">
-                <div ><a href="./login.html"><button type="button" class="phone-login">Logout</button></a></div>
-                <button type="button" class="close-menu-btn"></button>
+     <!---------------------------------------NAV BAR ------------------------------------------->
+     <header class="header">
+        <div class="containernav">
+            <div class="logo">
+                <img src="logo/logowhite.png" alt="logo">
             </div>
-            <ul>
-                <li><a href="./index.1.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="./NationalPark1.1.html">Introduction</a>
-                </li>
-                <li><a href="./WildLifeDep.1.html">DWC</a></li>
-                <li class="dropdown">
-                    <a href="#">Animals</a>
-                    <ion-icon name="chevron-down-outline"></ion-icon>
-                    <ul class="sub-menu">
-                        <li><a href="./Animals in SriLanka.1.html"><span>Indemic Animal</span></a></li>
-                         <li><a href="./leopard.1.html"><span>Leopard</span></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">National Parks</a>
-                    <ion-icon name="chevron-down-outline"></ion-icon>
-                    <ul class="sub-menu">
-                        <li><a href="./yala.1.html"><span>Yala</span></a></li>
-                        <li><a href="./wilpattu.1.html"><span>Wilpattu</span></a></li>
-                    </ul>
-                </li>
-                <li><a href="userdashboard.html">Profile</a></li>
-            </ul>
+            <div class="menu">
+                <div class="head">
+                    <div ><a href="./login.html"><button type="button" class="phone-login">Logout</button></a></div>
+                    <button type="button" class="close-menu-btn"></button>
+                </div>
+                <ul>
+                    <li><a href="./index.admin.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./NationalPark1.admin.html">Introduction</a>
+                    </li>
+                    <li><a href="./WildLifeDep.admin.html">DWC</a></li>
+                    <li class="dropdown">
+                        <a href="#">Animals</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./Animals in SriLanka.admin.htmlhtml"><span>Indemic Animal</span></a></li>
+                             <li><a href="./leopard.admin.html"><span>Leopard</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">National Parks</a>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                        <ul class="sub-menu">
+                            <li><a href="./yala.admin.html"><span>Yala</span></a></li>
+                            <li><a href="./wilpattu.admin.html"><span>Wilpattu</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="admin_dashboard.html">Profile</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a href="./login.html"><button type="button" class="login-btn">Logout</button></a>
+                <button type="button" class="open-menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+            </div>
         </div>
-        <div class="header-right">
-            <a href="./login.html"><button type="button" class="login-btn">Logout</button></a>
-            <button type="button" class="open-menu-btn">
-                <span class="line line-1"></span>
-                <span class="line line-2"></span>
-                <span class="line line-3"></span>
-            </button>
-        </div>
-    </div>
-</header> 
+    </header> 
     <main>
        <div class="nationalparkbg"  x-data="introdata">
            <nav class="container2" >
             <!------------------------------------------CONTENT-------------------------------------------------------->
             <nav class="wlsites" >
-                <section class="pop-up"><button onclick="openEditor1()" class="editbtn" >Click here to Edit the Content</button>
-                    <!-- The Modal 1 -->
-                    <div id="editModal1" class="modal">
-                    <!-- Modal content 1 -->
-                    <div class="modal-content">
-                        <span class="close" onclick="closeEditor1()" >&times;</span>
-                        <h2 class="poptitle">Edit the content</h2>
-                        <textarea id="editedHeading1" class="ptitle" ></textarea>
-                        <textarea id="editedpara1" class="para"></textarea>
-                        <textarea id="editedSubtitle1" class="ptitle"></textarea>
-                        <textarea id="editedtitle1" class="ptitle"></textarea>
-                        <textarea id="editedpara2" class="para"></textarea>
-                        <textarea id="editedpara3" class="para"></textarea>
-                        <textarea id="editedpara4" class="paras"></textarea>
-                        <textarea id="editedHeading2" class="ptitle" ></textarea>
-                        <textarea id="editedTabletitle1" class="tabletitle" ></textarea>
-                        <textarea id="editedTabletitle2" class="tabletitle" ></textarea>
-                        <textarea id="editedTabletitle3" class="tabletitle" ></textarea>
-                        <textarea id="editedTabletitle4" class="tabletitle" ></textarea>
-                        <textarea id="editedAnimal1" class="tabledata" ></textarea>
-                        <textarea id="editedListOne" class="tabledata"></textarea>
-                        <textarea id="editedListTwo" class="tabledata"></textarea>
-                        <textarea id="editedListThree" class="tabledata"></textarea>
-                        <textarea id="editedAnimal2" class="tabledata1" ></textarea>
-                        <textarea id="editedListFour" class="tabledata1"></textarea>
-                        <textarea id="editedListFive" class="tabledata1"></textarea>
-                        <textarea id="editedListSix" class="tabledata1"></textarea>
-                        <textarea id="editedAnimal3" class="tabledata2" ></textarea>
-                        <textarea id="editedListSeven" class="tabledata2"></textarea>
-                        <textarea id="editedListEight" class="tabledata2"></textarea>
-                        <textarea id="editedListNine" class="tabledata2"></textarea>
-                        <button onclick="saveChanges1()" class="btn">Save Changes</button>
-                        <button onclick="closeEditor1()" class="btn" > Close</button>
-                    </div>
-                    </div>
-                </section>
-                <h1 x-text="introheading" id="title1"></h1>
-                    <p x-text="intropara" id="para1"></p>
-                    <h1 x-text="siteheading" id="subtitle1"></h1>
+                <h1 x-text="introheading"></h1>
+                    <p x-text="intropara"></p>
+                    <h1 x-text="siteheading"></h1>
                     <ul>
-                        <li><h3 x-text="site1" id="site1"></h3></li>
+                        <li><h3 x-text="site1"></h3></li>
                             <nav class="map-wrapper">
                                 <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991566477052!2d80.45745167499194!3d6.406990793583746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1703096435106!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </nav>
-                            <p x-text="para1" id="para2"></p>
-                            <p x-text="para2" id="para3"></p>
-                            <p x-text="para3" id="para4"></p>
+                            <p x-text="para1"></p>
+                               <p x-text="para2"></p>
+                                <p x-text="para3"></p>
                     </ul>
                 </nav>
                 <!------------------------------------------GALLERY-------------------------------------------------------->
                 <section x-data="gallery">
-                    <nav class="gallery-heading"  ><h1 x-text="galleryheading" id="title2"></h1></nav>
+                    <nav class="gallery-heading"  ><h1 x-text="galleryheading" ></h1></nav>
                     <nav class="gallery">
                       <img src="Images/sinharaja1.jpg" class="galleryimg">
                       <img src="Images/sinharaja2.png" class="galleryimg">
@@ -140,24 +103,23 @@
                 <nav class="table" x-data="table">
                 <table class="table-content">
                 <tr>
-                    <th x-text="tabletitle1" id="tabletitle1"></th>
-                    <th x-text="tabletitle2" id="tabletitle2"></th>
-                    <th x-text="tabletitle3" id="tabletitle3"></th>
-                    <th x-text="tabletitle4" id="tabletitle4"></th>
+                    <th x-text="tabletitle1"></th>
+                    <th x-text="tabletitle2"></th>
+                    <th x-text="tabletitle3"></th>
+                    <th x-text="tabletitle4"></th>
                 </tr>
                 <tr>
                     <tr>
-                        <td data-cell="Name" x-text="animal1" id="animal1"></td>
-                        <td data-cell="Diet">
-                            <ul id="listOne">
-                                <template x-for="item in list">
-                                    <li x-text="item"></li>
-                                    <li x-text="item"></li>
-                                </template>
-                            </ul>
-                        </td>
+                        <td data-cell="Name" ><span class="tdh" ><b><section x-text="animal1"></section></b></span></td>
+                        <td data-cell="Diet"><ul>
+                            <template x-for="item in list">
+                                <li x-text="item"></li>
+                                <li x-text="item"></li>
+                            </template>
+                            </ul></td>
                         <td data-cell="Physical Characteristics">
-                        <ul id="listTwo">
+                        <ul>
+                    
                             <template x-for="item2 in list2">
                                 <li x-text="item2"></li>
                                 <li x-text="item2"></li>
@@ -166,7 +128,7 @@
                         </ul>
                         </td>
                         <td data-cell="Fun Fact">
-                        <ul id="listThree">
+                        <ul>
                             <template x-for="item3 in list3">
                                 <li x-text="item3"></li>
                                 <li x-text="item3"></li>
@@ -176,16 +138,16 @@
                         </tr>
                 </tr>
                <tr>
-                    <td data-cell="Name" x-text="animal2" id="animal2"></td>
+                    <td data-cell="Name"><span class="tdh" ><b><section x-text="animal2"></section></b></span></td></td>
                     <td data-cell="Diet">
-                        <ul id="listFour">
+                        <ul>
                             <template x-for="item4 in list4">
                                 <li x-text="item4"></li>
                                 <li x-text="item4"></li>
                                 <li x-text="item4"></li>
                             </template>
-                        
-                            <ol class="ol">
+                        </ul>
+                            <ol>
                             <template x-for="smlitem1 in smllist1">
                                     <li x-text="smlitem1"></li>
                                     <li x-text="smlitem1"></li>
@@ -194,10 +156,9 @@
                                     <li x-text="smlitem1"></li>
                             </template>
                            </ol>
-                        </ul>
                         </td>
                     <td data-cell="Physical Characteristics">
-                        <ul id="listFive">
+                        <ul>
                             <template x-for="item5 in list5">
                                 <li x-text="item5"></li>
                                 <li x-text="item5"></li>
@@ -205,7 +166,7 @@
                         </ul>
                     </td>
                     <td data-cell="Fun Fact">
-                        <ul id="listSix">
+                        <ul>
                         <template x-for="item6 in list6">
                             <li x-text="item6"></li>
                             <li x-text="item6"></li>
@@ -214,15 +175,15 @@
                     </td>
                 </tr>
                 <tr>
-                    <td data-cell="Name" x-text="animal3" id="animal3"></td>
+                    <td data-cell="Name"><span class="tdh"><b><section x-text="animal3"></section></b></span></td>
                     <td data-cell="Diet">
-                            <ul id="listSeven">
+                            <ul>
                                 <template x-for="item7 in list7">
                                     <li x-text="item7"></li>
                                     <li x-text="item7"></li>
                                 </template>
-                           
-                                <ol class="ol">
+                            </ul>
+                                <ol>
                                     <template x-for="smlitem2 in smllist2">
                                         <li x-text="smlitem2"></li>
                                         <li x-text="smlitem2"></li>
@@ -231,10 +192,9 @@
                                         <li x-text="smlitem2"></li>
                                     </template>
                                 </ol>
-                            </ul>
                     </td>
                     <td data-cell="Physical Characteristics">
-                            <ul id="listEight">
+                            <ul>
                                 <template x-for="item8 in list8">
                                     <li x-text="item8"></li>
                                     <li x-text="item8"></li>
@@ -243,7 +203,7 @@
                             </ul>
                     </td>
                     <td data-cell="Fun Fact">
-                    <ul id="listNine">
+                    <ul>
                         <template x-for="item9 in list9">
                             <li x-text="item9"></li>
                             <li x-text="item9"></li>
@@ -252,7 +212,7 @@
                     </td>
                 </tr>
             </table>
-                <span class="next"><a href="NationalPark2.1.html"><h1>Udawalawe National Park &#8594;</h1></a></span>
+                <span class="next"><a href="NationalPark2.html"><h1>Udawalawe National Park &#8594;</h1></a></span>
             </nav>
             </nav>
              
@@ -300,6 +260,7 @@
                 <p>You have successfully subscribed!</p>
             </div>
         </div>
+       </nav>
     </main>
    </div>
        <!----------------------content
@@ -311,8 +272,8 @@
         https://fonts.google.com/
         https://www.dafont.com/----------------------------------->
         <script src="./JS/NationalPark1.js"></script>
+        <script src="./JS/news.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>
